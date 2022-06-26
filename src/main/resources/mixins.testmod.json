@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "com.meedou.testmod.mixin.mixins",
+  "refmap": "mixins.testmod.refmap.json",
+  "mixins": [
+    "MixinGuiMainMenu",
+    "MixinNetworkManager",
+    "MixinAbstractClientPlayer"
+  ]
+}
